@@ -1,0 +1,58 @@
+@media (min-width: 300px) {
+  .bubble-wrapper {
+    row-gap: 0.6rem;
+    margin: 0.5rem 1rem;
+  }
+
+  .bubble-wrapper > h3 {
+    font-size: 1.3rem;
+  }
+
+  .bubble {
+    border-radius: 15px;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .bubble-wrapper > h3 {
+    font-size: 1.5rem;
+  }
+
+  .bubble {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .bubble-wrapper {
+    row-gap: 0.5rem;
+  }
+
+  .bubble {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .bubble-wrapper {
+    margin: 0.5rem 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bubble-wrapper > h3 {
+    font-size: 1.6rem;
+  }
+
+  .bubble {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .bubble-wrapper {
+    margin: 1rem 4rem;
+  }
+}

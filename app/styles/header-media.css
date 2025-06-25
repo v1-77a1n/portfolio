@@ -1,0 +1,88 @@
+@media (min-width: 300px) {
+  header {
+    width: 100%;
+    height: 15rem;
+    row-gap: 2rem;
+  }
+
+  #heading {
+    margin-top: 1.8rem;
+    letter-spacing: 0.15rem;
+    font-size: 1.5rem;
+    height: 2rem;
+  }
+
+  #pronouns {
+    font-size: 1rem;
+  }
+
+  #subheaders {
+    width: 15rem;
+    row-gap: 0.8rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 576px) {
+  #heading {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    height: 4rem;
+  }
+
+  #pronouns {
+    font-size: 1.2rem;
+  }
+
+  #subheaders {
+    width: 20rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #heading {
+    margin-top: 0.8rem;
+    font-size: 2.7rem;
+  }
+
+  #pronouns {
+    font-size: 1.3rem;
+  }
+
+  #subheaders {
+    width: 21.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #heading {
+    margin-top: 0.5rem;
+    font-size: 2.8rem;
+    height: 6rem;
+  }
+
+  #subheaders {
+    row-gap: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header {
+    height: 18rem;
+  }
+
+  #heading {
+    margin-top: 0;
+    font-size: 3.5rem;
+  }
+
+  #pronouns {
+    font-size: 1.5rem;
+  }
+
+  #subheaders {
+    width: 25rem;
+    font-size: 1rem;
+  }
+}

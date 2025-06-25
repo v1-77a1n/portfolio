@@ -1,0 +1,37 @@
+@keyframes bubbleAppear {
+  from {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.bubble-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  text-wrap: pretty;
+  animation: bubbleAppear 0.5s linear forwards;
+}
+
+.bubble {
+  height: auto;
+  width: 100%;
+  background-color: var(--secondary);
+  color: var(--primary);
+  filter: drop-shadow(0 13px 6.2px var(--tertiary));
+  -moz-user-select: text;
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+.bubble-left {
+  align-self: flex-start;
+}
+
+.bubble-right {
+  align-self: flex-end;
+}

@@ -1,0 +1,41 @@
+@media (min-width: 300px) {
+  #messages-wrapper {
+    height: calc(100% - 5rem);
+    width: 18rem;
+    padding-bottom: 0.8rem;
+  }
+}
+
+@media (min-width: 576px) {
+  #messages-wrapper {
+    width: 35rem;
+    padding-bottom: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #messages-wrapper {
+    width: 45rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #messages-wrapper {
+    width: 50rem;
+    padding-bottom: 0.7rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #messages-wrapper {
+    width: 60rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  #messages-wrapper {
+    width: 80rem;
+    padding-bottom: 1rem;
+  }
+}

@@ -1,0 +1,165 @@
+@media (min-width: 300px) {
+  @keyframes show {
+    from {
+      height: 0;
+    }
+    to {
+      height: 16.4rem;
+    }
+  }
+
+  @keyframes hide {
+    from {
+      height: 16.4rem;
+    }
+    to {
+      height: 0;
+    }
+  }
+
+  footer {
+    height: 5rem;
+    padding: 1rem;
+  }
+
+  #wrapper {
+    width: calc(100% - 50rem);
+  }
+
+  #query-bar {
+    width: 16rem;
+    height: 2.2rem;
+    font-size: 1.2rem;
+  }
+
+  #question-wrapper {
+    bottom: 0.7rem;
+    width: 14.4rem;
+    border: 0.15rem solid black;
+    row-gap: 0.5rem;
+    transition: height 0.3s linear;
+  }
+
+  .query-btn {
+    width: calc(100% - 1rem);
+    font-size: 1.2rem;
+  }
+
+  #query {
+    line-height: 2.2rem;
+  }
+}
+
+@media (min-width: 576px) {
+  @keyframes show {
+    from {
+      height: 0;
+    }
+    to {
+      height: 17rem;
+    }
+  }
+
+  @keyframes hide {
+    from {
+      height: 17rem;
+    }
+    to {
+      height: 0;
+    }
+  }
+
+  #query-bar {
+    width: 30rem;
+    height: 2.7rem;
+    font-size: 1.3rem;
+  }
+
+  #question-wrapper {
+    width: 29.4rem;
+    row-gap: 0.6rem;
+  }
+
+  .query-btn {
+    width: calc(100% - 2rem);
+  }
+
+  #query {
+    line-height: 2.7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  @keyframes show {
+    from {
+      height: 0;
+    }
+    to {
+      height: 18.4rem;
+    }
+  }
+
+  @keyframes hide {
+    from {
+      height: 18.4rem;
+    }
+    to {
+      height: 0;
+    }
+  }
+
+  #query-bar {
+    width: 35rem;
+    font-size: 1.5rem;
+  }
+
+  #question-wrapper {
+    width: 34.4rem;
+  }
+
+  .query-btn {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #query-bar {
+    width: 40rem;
+  }
+
+  #question-wrapper {
+    width: 39.4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  @keyframes show {
+    from {
+      height: 0;
+    }
+    to {
+      height: 19rem;
+    }
+  }
+
+  @keyframes hide {
+    from {
+      height: 19rem;
+    }
+    to {
+      height: 0;
+    }
+  }
+  #query-bar {
+    width: calc(100% - 20rem);
+    height: 3rem;
+  }
+
+  #question-wrapper {
+    width: calc(100% - 19.85rem);
+  }
+
+  #query {
+    line-height: 3rem;
+  }
+}

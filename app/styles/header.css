@@ -1,0 +1,27 @@
+header {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background: linear-gradient(180deg, var(--primary) 80%, #e9f1f700);
+  color: var(--tertiary);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#subheaders {
+  display: flex;
+  flex-direction: column;
+}
+
+#subheader-one {
+  width: fit-content;
+  align-self: flex-end;
+}
+
+#subheader-two {
+  width: fit-content;
+  align-self: flex-start;
+}
